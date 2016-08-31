@@ -1,0 +1,45 @@
+article {
+	height: 20em;
+}
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	height: ;
+}
+footer {
+	background: #d9d9d9;
+	text-align: center;
+	padding: 1px;
+	font-size: 1.25em;
+	word-spacing: 15px;
+}
+header {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5em;
+	padding: 3px;
+	background-color: #d9d9d9;
+}
+nav {
+	border: 0;
+	margin: 0;
+}
+nav li {
+	display: inline;
+	padding: .75em 1em;
+	margin-left: .5em;
+	margin-right: .5em;
+	text-align: center;
+	font-size: 1.25em;
+	color: white;
+}
+nav li:hover {
+	background-color: #111;
+}
+nav ul {
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	background-color: #333;
+}
