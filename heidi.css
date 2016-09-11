@@ -1,13 +1,11 @@
-article {
-	height: 20em;
-	width: 100%;
+article h2 {
+	margin-top: -1.5em;
 	margin-left: 2em;
 }
 body {
 	margin: 0;
 	border: 0;
-	padding: 0;
-	height: ;
+	position: relative;
 }
 footer {
 	background: #d9d9d9;
@@ -57,7 +55,73 @@ nav ul a:visited {
 	text-align: right;
 	margin-right: 5em;
 }
+#registry {
+	margin-bottom: 5em;
+}
+#registry h3 {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+#registry p {
+	margin-left: 4em;
+}
+#ribbon {
+	margin-left: 6em;
+}
 #thankYou {
 	font-style: italic;
-	margin: -1em 0 0 2em;
+	margin: -1em 0 0 6em;
+}
+
+/********* Guest Book *********/
+
+form {
+	margin: 1em auto 3em auto;
+	width: 30em;
+}
+fieldset {
+	border: none;
+	text-align: center;
+	font-weight: bold;
+}
+input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: .5em;
+	margin: .25em;
+}
+legend {
+	font-size: 1.25em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+textarea {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: .5em;
+	margin-top: .5em;
+	width: 28.5em;
+	border-style: 1px inset;
+}
+#firstName, #lastName {
+	width: 14em;
+}
+#email {
+	width: 28.5em;
+	position: relative;
+}
+#submit {
+	background: black;
+	color: white;
+	font-size: 1em;
+	margin: 1.5em auto 0 auto;
+	font-weight: bold;
+	width: 7em;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: .75em;
+	
 }
