@@ -1,3 +1,6 @@
+article {
+	min-height: 30em;
+}
 article h2 {
 	margin-top: -1.5em;
 	margin-left: 2em;
@@ -50,6 +53,19 @@ nav ul a:link {
 nav ul a:visited {
 	color: white;
 	text-decoration: none;
+}
+table {
+	float: right;
+	margin-right: 27%;
+	margin-top: 1em;
+	padding: .5em;
+	width: 20em;
+	border: solid black 1px;
+	text-align: center;
+	font-size: 1.25em;
+}
+td {
+	border: 1px solid black;
 }
 #date {
 	text-align: right;
